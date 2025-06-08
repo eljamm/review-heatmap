@@ -77,6 +77,30 @@ $ aab package_dist
 
 You will find the ankiaddon file under the `build/` directory.
 
+#### With Nix
+
+Requirements:
+
+- [Nix](https://nix.dev/)
+
+Build the addon:
+
+```shellSession
+nix-build -A review-heatmap
+```
+
+Try out Anki with the addon pre-installed:
+
+```shellSession
+nix-build -A anki && ./result/bin/anki
+```
+
+To enter a development shell, run:
+
+```shellSession
+nix-shell -A shell
+```
+
 ### Contributing
 
 Contributions are welcome! Please review the [contribution guidelines](./CONTRIBUTING.md) on how to:

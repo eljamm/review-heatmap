@@ -51,3 +51,6 @@ src/*/debug
 .pytest_cache/
 src/*/gui/forms
 src/*/gui/resources
+# Nix
+result*
+.direnv*

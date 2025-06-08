@@ -1,0 +1,18 @@
+{
+  "pins": {
+    "nixpkgs": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "JuneStepp",
+        "repo": "nixpkgs"
+      },
+      "branch": "anki-addons",
+      "submodules": false,
+      "revision": "cd6daa545785a043e101695905e6b39a7ea694d2",
+      "url": "https://github.com/JuneStepp/nixpkgs/archive/cd6daa545785a043e101695905e6b39a7ea694d2.tar.gz",
+      "hash": "1aq17jh94ikg6iqkz9ib7rqaadys696sk9mggbivkincmmrzp73f"
+    }
+  },
+  "version": 5
+}
